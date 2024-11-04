@@ -1,11 +1,21 @@
+import Sidebar from "../sidebar/sidebar";
 import "./navbar.scss";
+import { motion } from "framer-motion";
 
 function Navbar() {
   return (
     <div className="navbar">
       {/* sidebar */}
+      <Sidebar />
+
       <div className="wrapper">
-        <span>Aqib Shoaib</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.2 }}
+        >
+          Aqib Shoaib
+        </motion.span>
         <div className="social">
           <a href="">
             <img src="/facebook.png" alt="" />
