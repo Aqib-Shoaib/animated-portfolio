@@ -13,13 +13,13 @@
     gap: 20px;
 
     hr {
-      width: 500px;
+      width: 35rem;
       border: none;
       border-top: 1px solid gray;
     }
     p {
       font-weight: 200;
-      font-size: 20px;
+      font-size: 2rem;
       color: gray;
       text-align: right;
     }
@@ -36,19 +36,19 @@
       gap: 50px;
       align-items: center;
       img {
-        width: 300px;
-        height: 100px;
+        width: 20rem;
+        height: 8rem;
         border-radius: 50px;
         object-fit: cover;
       }
       h1 {
-        font-size: 96px;
+        font-size: 7rem;
         font-weight: 100;
       }
 
       button {
-        width: 300px;
-        height: 100px;
+        width: 20rem;
+        height: 8rem;
         border-radius: 50px;
         background: orange;
         border: none;
@@ -60,7 +60,7 @@
   .listContainer {
     flex: 2;
     display: flex;
-    max-width: 1366px;
+    width: 80%;
     margin: auto;
     .box {
       padding: 50px;

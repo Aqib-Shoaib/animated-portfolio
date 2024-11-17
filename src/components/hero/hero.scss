@@ -5,10 +5,9 @@
   position: relative;
 
   .wrapper {
-    max-width: 1366px;
+    width: 80%;
     margin: auto;
     height: 100%;
-    margin: 5rem;
 
     .textContainer {
       height: 100%;
@@ -21,13 +20,13 @@
       h2 {
         color: rebeccapurple;
         letter-spacing: 10px;
-        font-size: 30px;
+        font-size: 3rem;
       }
       h1 {
-        font-size: 88px;
+        font-size: 7rem;
       }
       img {
-        width: 50px;
+        width: 5rem;
       }
 
       .buttons {
@@ -49,7 +48,9 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: -1rem;
+    left: 50%;
+    transform: translateX(-30%);
+    width: 50%;
   }
 
   .slidingText {

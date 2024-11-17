@@ -1,6 +1,7 @@
 html {
   scroll-snap-type: mandatory;
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 * {
@@ -13,6 +14,8 @@ html {
 body {
   background-color: #0c0c1d;
   color: lightgray;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 a {
