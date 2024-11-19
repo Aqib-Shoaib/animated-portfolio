@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .portfolio {
   position: relative;
   .progress {
@@ -8,6 +10,11 @@
     text-align: center;
     color: orange;
     font-size: 3rem;
+
+    @include mobile {
+      font-size: 1.8rem;
+    }
+
     .progressBar {
       height: 1rem;
       background-color: white;
@@ -31,6 +38,10 @@
       align-items: center;
       justify-content: center;
 
+      @include mobile {
+        flex-direction: column;
+      }
+
       .imageContainer {
         flex: 1;
         height: 50%;
@@ -46,6 +57,10 @@
         display: flex;
         gap: 2rem;
         flex-direction: column;
+
+        @include mobile {
+          transform: none !important;
+        }
 
         h2 {
           font-size: 6rem;
